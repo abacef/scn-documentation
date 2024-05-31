@@ -1,6 +1,7 @@
 ---
-title: Network Monitoring 1. LibreNMS Network Manager Configuration
-parent: Infrastructure
+title: LibreNMS Server Manual Setup
+parent: Monitoring
+nav_order: 2
 ---
 
 # LibreNMS Network Manager Configuration
