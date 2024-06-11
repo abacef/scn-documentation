@@ -1,2 +1,2 @@
 mkdocs
-mkdocs-nav-weight
+mkdocs-awesome-pages-plugin

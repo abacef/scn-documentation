@@ -2,5 +2,5 @@ site_name: My Docs
 theme: readthedocs
 
 plugins:
+  - awesome-pages
   - search
-  - mkdocs-nav-weight
