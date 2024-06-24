@@ -19,7 +19,7 @@ Here are some tools you should have in your crimping kit!
 
 ### RJ45 Crimping Tool
 
-![RJ45 Crimping Tool]({{site.url}}/assets/cable-crimping/kit-crimping-tool.jpg)
+![RJ45 Crimping Tool](../assets/cable-crimping/kit-crimping-tool.jpg)
 
 An RJ45 crimping tool is the most essential tool. Although it's technically possible to crimp ethernet cables without this specialized tool, it's [not very practical](https://youtu.be/ysYLdFxNVuc) for crimping lots of cables.
 
@@ -27,25 +27,25 @@ Its primary utility is to do the actual 'crimping' part of compressing/crimping 
 
 ### Cable Stripper
 
-![Cable Stripper]({{site.url}}/assets/cable-crimping/kit-cable-stripper.jpg)
+![Cable Stripper](../assets/cable-crimping/kit-cable-stripper.jpg)
 
 Cable strippers are used to take off the protecting shielding around cables and expose the inner wires. You can also do the same thing with a simple blade or pair of scissors. The trickiest part about stripping cables is trying to avoid cutting the inner wires!
 
 ### RJ45 Connectors
 
-![RJ45 Connector]({{site.url}}/assets/cable-crimping/kit-rj45-connector.jpg)
+![RJ45 Connector](../assets/cable-crimping/kit-rj45-connector.jpg)
 
 RJ45 connectors are required for crimping because they feature the 8 golden pins that get crimped onto the 8 wires of the ethernet cable. They are what get plugged into ethernet ports! They also feature a latch/clip that locks the ethernet cable into the port once it is plugged in.
 
 ### RJ45 Boots
 
-![RJ45 Boot]({{site.url}}/assets/cable-crimping/kit-rj45-boot.jpg)
+![RJ45 Boot](../assets/cable-crimping/kit-rj45-boot.jpg)
 
 RJ45 boots can be optionally used to protect the RJ45 connector. It provides insulation and prevents the cable from being breaking easily. They have to put slipped onto the cable before you put on the RJ45 connectors though!
 
 ### RJ45 Cable Tester
 
-![RJ45 Cable Tester]({{site.url}}/assets/cable-crimping/kit-cable-tester.jpg)
+![RJ45 Cable Tester](../assets/cable-crimping/kit-cable-tester.jpg)
 
 RJ45 cable testers allow you to guarantee that you did the job correctly!
 
@@ -57,11 +57,11 @@ Assuming you have a crimping kit and an ethernet cable that needs to be crimped,
 
 ### Step 0) Slip on the RJ45 boot (optional)
 
-![2 boots on a cable]({{site.url}}/assets/cable-crimping/0-boots.jpg)
+![2 boots on a cable](../assets/cable-crimping/0-boots.jpg)
 
 ### Step 1) Strip the cable
 
-![cable being stripped by cable stripper]({{site.url}}/assets/cable-crimping/1-strip.png)
+![cable being stripped by cable stripper](../assets/cable-crimping/1-strip.png)
 
 - Push the cable into the razor slot of the strip tool and turn it around the cable to make an even cut around the sheath. Careful not to nick the wires inside!
 - Unwrap the blue foil shielding and plastic to uncover the twisted wire pairs.
@@ -75,7 +75,7 @@ In this step, you'll be taking the 8 colored wires inside the ethernet cable and
 
 ### Step 2.1) Untwist the wires
 
-![4 twisted pairs becoming 8 individual wires]({{site.url}}/assets/cable-crimping/2.1-untwist.png)
+![4 twisted pairs becoming 8 individual wires](/assets/cable-crimping/2.1-untwist.png)
 
 There should be 4 pairs of wires: green, brown, orange, and blue. Each pair has a solid-colored wire and a striped-colored wire. Untwist these pairs and separate them into the 8 wires.
 
@@ -87,8 +87,8 @@ After untwisting the wires, they are probably still kinked and look like they wa
 
 ### Step 2.3) Lay out wires in order
 
-![Diagram showcasing ordering of RJ45 wires]({{site.url}}/assets/cable-crimping/2.3-color-diagram.png)
-![8 wires in RJ45 color order]({{site.url}}/assets/cable-crimping/2.3-ordered.png)
+![Diagram showcasing ordering of RJ45 wires](../assets/cable-crimping/2.3-color-diagram.png)
+![8 wires in RJ45 color order](../assets/cable-crimping/2.3-ordered.png)
 
 With your straightened out wires, put them into the correct order! Make sure that the wires are all flat and in line with each other.
 
@@ -106,7 +106,7 @@ The ordering for these wires is:
 
 ### Step 2.4) Trim the wires
 
-![trimmed wires]({{site.url}}/assets/cable-crimping/2.4-trim.png)
+![trimmed wires](../assets/cable-crimping/2.4-trim.png)
 
 Trim the wires evenly to about 1/2 inch in length using scissors or the blade of your crimping tool. You want to make sure you have enough room for the wires to reach the end of the RJ45 connector. But also try to have room for the shielding of the cable to be inserted into the connector too.
 
@@ -118,7 +118,7 @@ Trim the wires evenly to about 1/2 inch in length using scissors or the blade of
 
 ### Step 3) Slide wires into RJ45 connector
 
-![Wires inserted into RJ45 connector with clip-side down]({{site.url}}/assets/cable-crimping/3-diagram.png)
+![Wires inserted into RJ45 connector with clip-side down](../assets/cable-crimping/3-diagram.png)
 
 Carefully slide your 8 wires into the connector. Make sure that the clip is facing away from you! If it is really hard to slide it into the connector, you probably didn't straighten out the wires enough in step 2.2 or 2.3.
 
@@ -126,7 +126,7 @@ Carefully slide your 8 wires into the connector. Make sure that the clip is faci
 
 ### Step 4) Crimp it
 
-![Inserting into crimping tool and crimping]({{site.url}}/assets/cable-crimping/4-crimp.png)
+![Inserting into crimping tool and crimping](../assets/cable-crimping/4-crimp.png)
 
 Push the RJ45 connector into the slot of your crimping tool for RJ45 connectors. The slot should be labeled something like "8P" for the 8-pin RJ45 connector that you're using.
 
@@ -136,7 +136,7 @@ In this step, you're doing the actual 'crimping' part and crimping/compressing/s
 
 ### Step 5) Test it
 
-![Testing with cable tester, green light showing]({{site.url}}/assets/cable-crimping/5-test.png)
+![Testing with cable tester, green light showing](../assets/cable-crimping/5-test.png)
 
 Slide the two pieces of the tester apart and plug each of the cable ends into either piece. Turn the switch to “On” or “Slow.” If it's working, all 8 numbers should be flashing green.
 

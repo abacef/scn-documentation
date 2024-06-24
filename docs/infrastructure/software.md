@@ -18,10 +18,10 @@ Our EPC is powered by [Open5GS](https://github.com/open5gs/open5gs), an open-sou
 ### Spectrum Access System (SAS)
 We have a partnership with [Google SAS](https://www.google.com/get/spectrumdatabase/sas/) to gain access to CBRS spectrum.
 
-Learn more about our SAS setup [here]({{ "infrastructure/sas-setup.html" | absolute_url }}).
+Learn more about our SAS setup [here](../sas-setup).
 
 ### Network Monitoring and Alerting
-We use [LibreNMS](https://www.librenms.org) and SNMPd to monitor our nodes and provide alerting. Our Baicells-specific Network Manager setup is documented [here]({{ "infrastructure/librenms-manager-setup.html" | absolute_url }}), and our instructions for configuring a new node can be found [here]({{"infrastructure/librenms-setup.html" | absolute_url }}).
+We use [LibreNMS](https://www.librenms.org) and SNMPd to monitor our nodes and provide alerting. Our Baicells-specific Network Manager setup is documented [here](../librenms-manager-setup), and our instructions for configuring a new node can be found [here](../librenms-setup).
 
 ## Field Measurement
 
