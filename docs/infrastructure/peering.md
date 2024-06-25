@@ -10,7 +10,7 @@ Please [contact us](mailto:lcl@seattlecommunitynetwork.org) to peer with our net
 
 Note this network is our public ASN, not the [Seattle Community Network](https://seattlecommunitynetwork.org) itself. If you would like to join the network visit our [connect](https://seattlecommunitynetwork.org/ourSites.html) page.
 
-Seattle Community Network (SCN) is a community network dedicated to providing fair access to underserved communities all across the Puget Sound. [Learn more on our FAQ](../../faq/about).
+Seattle Community Network (SCN) is a community network dedicated to providing fair access to underserved communities all across the Puget Sound. [Learn more on our FAQ](../faq/about.md).
 
 ### Peering Policy
 

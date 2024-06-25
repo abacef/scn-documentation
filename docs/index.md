@@ -8,10 +8,10 @@ Welcome to the documentation website for the [Seattle Community Network](https:/
 ## You're in the Right Place
 
 Seattle Community Network has a place for **everyone**. Whether you'd like to join
-to [get free Internet](faq/connection), get involved to help out your community, learn some skills
+to [get free Internet](faq/connection.md), get involved to help out your community, learn some skills
 so that you can get a job, or all of the above!
 
-**PRO TIP**{: .label .label-green} We are a **community**. It's in our name! So, why not start by [joining our community](community/join)? It's easy.
+**PRO TIP**{: .label .label-green} We are a **community**. It's in our name! So, why not start by [joining our community](community/join.md)? It's easy.
 
 ## What's here?
 Some topics you can find on this website include:

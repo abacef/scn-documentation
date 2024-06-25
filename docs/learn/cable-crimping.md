@@ -75,7 +75,7 @@ In this step, you'll be taking the 8 colored wires inside the ethernet cable and
 
 ### Step 2.1) Untwist the wires
 
-![4 twisted pairs becoming 8 individual wires](/assets/cable-crimping/2.1-untwist.png)
+![4 twisted pairs becoming 8 individual wires](../assets/cable-crimping/2.1-untwist.png)
 
 There should be 4 pairs of wires: green, brown, orange, and blue. Each pair has a solid-colored wire and a striped-colored wire. Untwist these pairs and separate them into the 8 wires.
 
