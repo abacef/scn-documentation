@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Wireless Communication - My Docs</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Wireless Communication";
+        var mkdocs_page_input_path = "learn/wireless-communication.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> My Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Faq</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/connection/">How do I get Internet?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/what/">What is a Community Network?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/why/">Why have a Community Network?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/about/">What is the Seattle Community Network?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/how/">How does SCN Work?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/site/">What is this site?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/help/">How can I Help?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Community</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/join/">Join Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/mission-vision-values/">Mission, Vision, Values</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/code-of-conduct/">Code of Conduct</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/join/">Join Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/partners/">Our Partners</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/tech-help/">Community Tech Help</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/community-networking-toolkit/">Community Networking Toolkit</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Learn</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Wireless Communication</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#radio-waves">Radio waves</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#how-radio-waves-are-created">How radio waves are created</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#frequency-wavelength">Frequency &amp; Wavelength</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-we-distinguish-between-radio-waves">How we distinguish between radio waves</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#summary">Summary</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#antennas">Antennas</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#how-they-work">How they work</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#material-properties">Material properties</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#taking-advantage-of-moving-electrons">Taking advantage of moving electrons</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-transmitting-with-an-antenna-works">How transmitting with an antenna works</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-receiving-with-an-antenna-works">How receiving with an antenna works</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#communicating-with-radio-waves">Communicating with radio waves</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#an-analogy">An analogy</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#modulation">Modulation</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#frequency-modulation">Frequency modulation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#amplitude-modulation">Amplitude modulation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#other-modulation-schemes">Other modulation schemes</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#frequency-allocation">Frequency allocation</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#baseband-signal-and-carrier-signals">Baseband signal and carrier signals</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#bandwidth">Bandwidth</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#bands-and-channels">Bands and Channels</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wireless-communication-protocols">Wireless Communication Protocols</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#wifi">WiFi</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#bluetooth">Bluetooth</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cellular-communication">Cellular communication</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-crimping/">Crimping Ethernet Cables</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lte-networks/">LTE Networks</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../networking/">Networking</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Infrastructure</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/hardware/">Hardware Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/software/">Software Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/peering/">Public ASN Peering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/librenms-manager-setup/">Network Monitoring 1. LibreNMS Network Manager Configuration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/librenms-setup/">Network Monitoring 2. LibreNMS Agent Configuration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/epc-setup/">Step 1. LTE Core Network Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/sas-setup/">Step 2. eNodeB and SAS Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/proxmox-vaultwarden-deployment/">Proxmox Deployment Guide - Vaultwarden</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Contribute</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contribute/contribute/">Contribute to SCN Docs</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">My Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Learn</li>
+      <li class="breadcrumb-item active">Wireless Communication</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="crash-course-in-wireless-communication">Crash Course in Wireless Communication</h1>
+<p>Authored by: Dominick Ta
+Last updated: June 18th, 2021</p>
+<p>TODO:</p>
+<ul>
+<li>[ ] Expand on transmit/receiving in antennas section</li>
+<li>[ ] Finish communication section</li>
+<li>[ ] Finish protocols section</li>
+</ul>
+<p>This is a crash course in wireless communication: the magical way that we humans send information (e.g. music, messages, text, videos) to each other over long distances, without a wire. </p>
+<p>Wireless communication is primarily powered by radio waves, a physical thing that we as humans cannot see or touch. In this article you will gain a layman's understanding of how wireless communication works. Specifically, this article will cover the following broad topics:</p>
+<ul>
+<li>Radio waves and the physics behind it</li>
+<li>Antennas</li>
+<li>How data is communicated via radio waves</li>
+<li>Examples of wireless communication technologies</li>
+</ul>
+<p>This is not meant to be a comprehensive article, so there will be a lot of simplifications, analogies, and informal explanations. Please let me know at domta@cs.uw.edu if you see any inaccuracies, misconceptions, or misnomers.</p>
+<hr />
+<h2 id="radio-waves">Radio waves</h2>
+<p>Radio waves are just oscillations of energy that exist throughout our environment. They can be generated naturally by lightning, or artifically by equipment made by humans such as cell phones.</p>
+<p>The technical definition of radio waves are that they are a form of 'electromagnetic radiation'. Other types of electromagnetic radiation include visible light (what we get from the sun), infrared, and X-rays.</p>
+<p><img alt="Image of a radio surrounded by pulsating radio waves" src="https://cdn.britannica.com/s:800x450,c:crop/86/214986-138-D4D194FD/How-radio-works-overview-radio-waves-frequency-amplitude-modulation.jpg" /></p>
+<h3 id="how-radio-waves-are-created">How radio waves are created</h3>
+<p>To understand why radio waves are considered a type of electromagnetic radiation, it is helpful to know how we generate radio waves. <strong><em>This section is not important to fully understand, but it is good to skim to have a basic idea of how this stuff works.</em></strong></p>
+<p>We create radio waves by <strong>moving electrons back and forth</strong> within an electrically conductive object (an object made of material that allows electrons to move freely, such as metals).</p>
+<p>This works because electrons have special properties:</p>
+<ul>
+<li>All electrons have '<a href="https://en.wikipedia.org/wiki/Electric_field">electric fields</a>' surrounding them that attracts and repels other charged particles.</li>
+<li>All moving electrons produce '<a href="https://en.wikipedia.org/wiki/Magnetic_field">magnetic fields</a>' that are the basis for how magnets work.</li>
+<li>Therefore, when electrons move there are two fields (electric &amp; magnetic) present that combine to create creates an '<a href="https://en.wikipedia.org/wiki/Electromagnetic_field">electromagnetic field</a>'.</li>
+</ul>
+<p>By moving an electron back and forth in an oscillating (repetitive) motion, these electromagnetic fields are constantly being disturbed/moved in a way that creates <strong>electromagnetic waves</strong> or equivalently, <a href="https://en.wikipedia.org/wiki/Electromagnetic_radiation">electromagnetic radiation</a>.</p>
+<p>In this GIF below, we see the charge of an antenna changing, representing electrons moving back and forth within the antenna. This creates pulsating electromagnetic waves. <strong>Note: in this particular GIF, it is actually only showing the pulsating electric fields.</strong></p>
+<p><img alt="Animated image of waves pulsating from an antenna" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Dipole_xmting_antenna_animation_4_408x318x150ms.gif" /></p>
+<p>In this GIF below, we are able to fully see an electromagnetic wave with a 3D representation. The red component of the wave represents the electric field, while the blue component represents the magnetic field. Notice how they are perpendicular to each other! <em>This is also why the GIF above didn't show both fields: it was a 2D representation!</em>
+<img alt="3D gif of electromagnetic waves, showing both the electric fields and magnetic fields" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Electromagneticwave3D.gif" /></p>
+<p>In this section, we learned about radio waves. In essence, you can just think of radio waves as physical phenomenon that look like these sine waves:
+<img alt="GIF of a basic sinusoidal wave at a constant frequency" src="https://i.gifer.com/7myX.gif" /></p>
+<p>With the proper hardware and knowledge, we can create any type of wave we want! We can vary frequencies (how fast the waves go by), amplitudes (how tall/powerful the waves are), and phases (what position within the loop the wave is in).</p>
+<h3 id="frequency-wavelength">Frequency &amp; Wavelength</h3>
+<p>It turns out that a fundamental characteristic of any given radio wave is its frequency. Therefore, it's important to know what 'frequency' means, and how it relates to the concept of 'wavelength'.</p>
+<p><a href="https://en.wikipedia.org/wiki/Frequency">Frequency</a> is a measurement of how often something happens. In the case of radio waves, it measures how many cycles of a radio wave occurs in a certain amonut of time. Frequency is measured in the units of <strong>hertz (Hz)</strong>, which represents cycles per second. If we had a radio wave that passed through 10 complete cycles in a minute, it would have a frequency of 0.16Hz (10 cycles per 60 seconds).</p>
+<p><a href="https://en.wikipedia.org/wiki/Wavelength">Wavelength</a> measures the physical length of a single cycle in a radio wave. If we could see radio waves and measure it, and we saw that there was a distance of 10-feet between two of the peaks in a radio wave, then that radio wave would have a wavelength of 10 feet.</p>
+<p><img alt="Image showcasing a wave with high frequency &amp; short wavelength, and a wave with low frequency &amp; long wavelength" src="https://cdn.britannica.com/83/194283-004-37696A2F.jpg" /></p>
+<p>In the image above, we can see a natural relationship between frequency and wavelength: a faster frequency means that you will have shorter wavelengths! Or conversely, longer wavelengths means that there is a slower frequency! When one value goes up, the other value has to go down; this is called an <strong>inverse relationship</strong>.</p>
+<p>So if I told you that I had a radio wave with a very high frequency, you could figure out that my radio wave has very small wavelengths. And actually, if I told you exactly what frequency my radio waves travelled at, you'd be able to figure out the exact size of the wavelength!</p>
+<p>For example, if I told you I had a radio wave with a frequency of 10Hz, you would be able to figure out that my radio wave has a wavelength of approximately 30,000,000 meters.</p>
+<p>This is because radio waves are a physical thing, so they always travel through air at the same speed: the speed of light. This means we can consistently convert back and forth between frequency and wavelength with some basic algebra.</p>
+<p>The basic equation, where c is the speed of light (3.0 x 10^8 m/s), is:
+frequency (Hz) * wavelength (m) = c</p>
+<p>So given a radio wave with a frequency of 10Hz, to solve for wavelength, I just need to take the speed of light and divide by 10! 30,000,000 divided by 10 gives a value of a wavelength of 30,000,000 meters.</p>
+<p>To summarize this section, frequency and wavelength are important properties of radio waves. Although they describe different aspects of a radio wave, they are essentially synonymous because we can easily convert between the two.</p>
+<p>When people are talking about radio waves, you may hear them talk in terms of frequencies (e.g. megahertz, gigahertz) or you may hear them talk in terms of wavelengths (e.g. meters).</p>
+<p>In the next section, we'll see why exactly frequency is such an important characteristic of radio waves.</p>
+<h3 id="how-we-distinguish-between-radio-waves">How we distinguish between radio waves</h3>
+<p>An important thing to remember about radio waves is that nowadays they <strong>surround us everywhere</strong> we go! Radio waves are powerful because they can <strong>go through obstacles</strong> like walls, and they can potentially propagate over <strong>huge distances</strong> at a relatively cheap cost. </p>
+<p>Radio waves are used to communicate information in technologies such as GPS, WiFi, Bluetooth, cell phones, music radio stations, and more.</p>
+<p>The problem with this is that these radio waves interfere with each other and combine together to become a jumbled mess! They are all co-existing within the same space, and they can't avoid each other. </p>
+<p>In real life we don't get to have nice, simple, isolated radio wave like in the previous sections, we get a mix of radio waves coming all at once! And somehow, we have to find and narrow down the signal we care about.</p>
+<p><img alt="GIF showcasing a bunch of random radio waves" src="https://miro.medium.com/max/1614/1*OyERBXcdPThv79uGu0QYGw.gif" /></p>
+<p>Imagine you are at an airport and you're trying to talk to your friend, but it is super crowded and theres people talking and shouting all around you. It would be super hard to hear your friend and have a conversation! </p>
+<p><em>(In this situation the people represent devices that use radio waves, the sound waves represent radio waves, and the voices &amp; words represent the data we want to transmit)</em></p>
+<p>But if your friend talks loud enough, even though your ear is full of noise from everyone else in the airport, you can still figure out what your friend is trying to tell you. This is because you're smart enough to recognize what your friend's voice sounds like and you can focus on that voice. We can do the same thing with radio waves of different frequencies!</p>
+<p><em>(Being able to focus on your friend's specific voice is analogous to being able to focus on only radio waves of a specific frequency)</em></p>
+<p>In the image below, we can see a red radio wave. This radio wave is actually the combination of 5 radio waves of different frequencies! In the blue, we see this same signal analyzed and split into the individual components, located at its respective frequencies. <em>(Analogy: 5 people talking at the same time, what your ears hear is the red. Your brain recognizing that these are 5 different voices is the blue)</em>
+<img alt="Two graphs, top graph is a red sinusoidal signal in the time domain, bottom graph is that same signal in the frequency domain showcasing 5 peaks at frequencies of 10, 20, 30, 40, and 50Hz." src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FFT_of_Cosine_Summation_Function.svg/440px-FFT_of_Cosine_Summation_Function.svg.png" /></p>
+<p>The mathematical process of going from the red representation (the signal in the time domain) to the blue representation (the signal in the frequency domain) is called the "Discrete Fourier Transform". <em>You may also hear about something called the "Fast Fourier Transform" which is the discrete fourier transform, but a very clever and fast way to calculate it.</em></p>
+<p><em>(Intuitively, the DFT/FFT is essentially comparing a bunch of sine waves of varying frequencies to the signal detected, and calculating how similar they are. This would be like your brain iterating through all possible human voices and checking to see how strongly your ears hear that particular voice)</em></p>
+<p><strong>This means that even though there may be a jumbled mess of radio waves surrounding us at all times, if they are radio waves of different frequencies, we are able to distinguish between all these different frequencies using some old fashioned engineering.</strong></p>
+<p>This non-trivial fact is what allows our world to have so many different types of devices communicating wirelessly all at the same time! They are all using radio waves, all in the same space, but at different frequencies! This is why radio waves are identified by their frequency (or wavelength).</p>
+<h3 id="summary">Summary</h3>
+<p>In this section on radio waves, we learned about what they are, the basics of how they're produced, frequency &amp; wavelength, and how we distinguish between different radio waves co-existing in the same space. These are the fundamental concepts behind the physics of radio waves that engineers take advantage of.</p>
+<p>In the next section on antennas, we will learn what they are and how they are used to efficiently propagate/send radio waves.</p>
+<p>In another section, we will learn more about how exactly we manipulate radio waves to convey the information we want to send.</p>
+<h2 id="antennas">Antennas</h2>
+<p>We use antennas in our everyday lives, but most people don't know how they work. We use antennas on cars, on buildings, and even within our computers and phones!</p>
+<h3 id="how-they-work">How they work</h3>
+<h4 id="material-properties">Material properties</h4>
+<p>Antennas are all made up of electrically conductive material. This usually means antennas are made out of metals like copper. </p>
+<p>Materials that are electrically conductive allow electrons to freely move throughout it. The opposite type of material would be electrically insulating material.</p>
+<p>As a real-life analogy, imagine a typical swimming pool filled with water. A normal pool like this allows people to freely swim through it! In this analogy the water represents electrically conductive material and people represent electrons. Now imagine a piece of copper metal as being that pool of water. Because copper is electrically conductive, electrons can freely move through it!</p>
+<p>An analogy for an electrically insulating material would be a swimming pool filled with jello/pudding/gelatin. If someone tried diving into that pool, they wouldn't get very far and it'd be super hard or impossible to swim through it. In this analogy the jello/pudding/gelatin represents electrically insulating material and people represent electrons. Now imagine a piece of plastic being that pool of water. Because plastic is electrically insulating, eletrons are mostly stuck where they are inside the plastic!</p>
+<h4 id="taking-advantage-of-moving-electrons">Taking advantage of moving electrons</h4>
+<p>Antennas need to be electrically conductive because they transmit and receive radio waves by taking advantage of the movement of electrons.</p>
+<p>In the above section on "How radio waves are created" we learned that radio waves are generated by moving an electron back and forth in an oscillating (repetitive) motion. This oscillation of electrons occurs in the antennas. </p>
+<p>If antennas weren't electrically conductive, these electrons wouldn't be able to move and create these radio waves!</p>
+<h4 id="how-transmitting-with-an-antenna-works">How transmitting with an antenna works</h4>
+<p>In order to transmit with an antenna, the antenna needs to be connected to an electrical component that can control the movement of these electrons.</p>
+<p>TODO: expand/clarify?</p>
+<h4 id="how-receiving-with-an-antenna-works">How receiving with an antenna works</h4>
+<p>Antennas receive radio signals passively. As the electromagnetic fields are manipulated in the environment around an antenna, the electrons in the antenna move accordingly (because of how the physics of it work). By monitoring the movement of these electrons, the respective radio wave can be captured.</p>
+<p>TODO: expand/clarify?</p>
+<h2 id="communicating-with-radio-waves">Communicating with radio waves</h2>
+<p>How do we as humans harness this power of manipulating radio waves as communication? We agree on a bunch of different rules and conventions on how we will manipulating these radio waves to convey information efficiently and responsibly. In the United States, most of these rules are established and enforced by the Federal Communications Commission (FCC).</p>
+<h3 id="an-analogy">An analogy</h3>
+<p>To lay a conceptual foundation for this relatively abstract section, here is an analogy. </p>
+<p>Suppose we have two friends with the simple names of "A" and "B" that want to talk to each other over a distance, but they cant see, hear, or touch each other over that distance. The only way method of communication they have is a really long piece of rope between them. So once they travel far away from each other, they will each be holding one end of the rope and will be trying to communicate.</p>
+<p>But before they travel far away from each other, they need to talk to each other to figure out a set of rules of communication so that they can understand each other when they feel the rope moving.</p>
+<p>When coming up with these rules for communication, one of the first things that A &amp; B need to do is come up with a language. Because A &amp; B really like computers, they chose the language of computers: binary. They chose this language because it is super simple and effective; it only has two letters (1 and 0) and you can send tons of information by being clever with 1s and 0s (thats what computers do).</p>
+<p>Now the next thing that A &amp; B needs to do is figure out how to use the rope to send these 1s and 0s. Here are some ideas they brainstormed together:
+* If the rope is moving up and down (oscillating), then that is considered a 1. If the rope is not moving, then that is considered a 0.
+* If the rope is oscillating super fast then that's a 1, but if the rope is oscillating slowly then that's a 0.
+* If the rope is oscillating super fast then that's a 0, but if the rope is oscillating slowly then that's a 1.
+* If the rope is oscillating with a big height then that's a 1, but if the rope is oscillating with small height then that's a 0.</p>
+<p>A &amp; B realized two properties of the movement of the rope that they could capture: (1) frequency, how fast the rope is oscillating, and (2) amplitude, how tall the rope is when its oscillating. </p>
+<p>The term for manipulating these properties is "modulation". This makes sense because a dictionary definition of modulation is "to adjust"; modulation is just a fancy word for changing.</p>
+<p>In this analogy, the material/medium of communication was the rope. But in our context, the material/medium of communication is radio waves. Both of these materials have frequency and amplitude that can be modulated to send information, and demodulated to receive that information.</p>
+<p>In the next section, we'll learn about frequency and amplitude modulation. We'll also learn about some other types of modulation that don't have a direct real-life connection to ropes.</p>
+<h3 id="modulation">Modulation</h3>
+<h4 id="frequency-modulation">Frequency modulation</h4>
+<h4 id="amplitude-modulation">Amplitude modulation</h4>
+<h4 id="other-modulation-schemes">Other modulation schemes</h4>
+<h3 id="frequency-allocation">Frequency allocation</h3>
+<h4 id="baseband-signal-and-carrier-signals">Baseband signal and carrier signals</h4>
+<h4 id="bandwidth">Bandwidth</h4>
+<h4 id="bands-and-channels">Bands and Channels</h4>
+<h2 id="wireless-communication-protocols">Wireless Communication Protocols</h2>
+<p>In the previous section on "Communicating with Radio Waves", we learned how we are able to transmit messages wirelessly over radio waves via modulation.</p>
+<p>We understood this through our analogy with friends A &amp; B who came up with a way to send letters in their binary language (1 and 0) through a rope. Assuming they were able to do this successfully, they could send long streams of messages that look something like "101011100101010101010". But that's still not enough! They need to come up with a 'protocol' for deciphering what this message actually means!</p>
+<p>For example, they could come up with a simple protocol for sending messages about how their day went. 
+* The first 3 letters would represent how their day went: "101" could mean that they had a good day, and "010" could mean that they had a bad day, and maybe "110" means that their day went okay.
+* The next 3 letters would represent the weather: "100" could mean that it was sunny and "101" could mean that it was rainy.</p>
+<p>We have these same types of protocols in real life that are much more complicated. They are carefully designed to ensure security (can people intercept messages?), reliability (what if the message gets messed up in certain places?), and efficiency (how much useful data can we send at a time?).</p>
+<h3 id="wifi">WiFi</h3>
+<h3 id="bluetooth">Bluetooth</h3>
+<h3 id="cellular-communication">Cellular communication</h3>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../community/community-networking-toolkit/" class="btn btn-neutral float-left" title="Community Networking Toolkit"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../cable-crimping/" class="btn btn-neutral float-right" title="Crimping Ethernet Cables">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../community/community-networking-toolkit/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../cable-crimping/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

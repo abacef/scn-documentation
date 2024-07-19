@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Crimping Ethernet Cables - My Docs</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Crimping Ethernet Cables";
+        var mkdocs_page_input_path = "learn/cable-crimping.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> My Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Faq</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/connection/">How do I get Internet?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/what/">What is a Community Network?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/why/">Why have a Community Network?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/about/">What is the Seattle Community Network?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/how/">How does SCN Work?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/site/">What is this site?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/help/">How can I Help?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Community</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/join/">Join Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/mission-vision-values/">Mission, Vision, Values</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/code-of-conduct/">Code of Conduct</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/join/">Join Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/partners/">Our Partners</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/tech-help/">Community Tech Help</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../community/community-networking-toolkit/">Community Networking Toolkit</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Learn</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../wireless-communication/">Wireless Communication</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Crimping Ethernet Cables</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-crimping-an-ethernet-cable">What is crimping an ethernet cable?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#why">Why?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#crimping-kit">Crimping Kit</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#rj45-crimping-tool">RJ45 Crimping Tool</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cable-stripper">Cable Stripper</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rj45-connectors">RJ45 Connectors</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rj45-boots">RJ45 Boots</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rj45-cable-tester">RJ45 Cable Tester</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-crimp-an-ethernet-cable">How to Crimp an Ethernet Cable</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#step-0-slip-on-the-rj45-boot-optional">Step 0) Slip on the RJ45 boot (optional)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-1-strip-the-cable">Step 1) Strip the cable</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-2-organize-the-wires">Step 2) Organize the wires</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-21-untwist-the-wires">Step 2.1) Untwist the wires</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-22-straighten-out-wires">Step 2.2) Straighten out wires</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-23-lay-out-wires-in-order">Step 2.3) Lay out wires in order</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-24-trim-the-wires">Step 2.4) Trim the wires</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-3-slide-wires-into-rj45-connector">Step 3) Slide wires into RJ45 connector</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-4-crimp-it">Step 4) Crimp it</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-5-test-it">Step 5) Test it</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#workshop-slides">Workshop Slides</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#videos">Videos</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#websites">Websites</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#shopping">Shopping</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lte-networks/">LTE Networks</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../networking/">Networking</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Infrastructure</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/hardware/">Hardware Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/software/">Software Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/peering/">Public ASN Peering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/librenms-manager-setup/">Network Monitoring 1. LibreNMS Network Manager Configuration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/librenms-setup/">Network Monitoring 2. LibreNMS Agent Configuration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/epc-setup/">Step 1. LTE Core Network Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/sas-setup/">Step 2. eNodeB and SAS Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../infrastructure/proxmox-vaultwarden-deployment/">Proxmox Deployment Guide - Vaultwarden</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Contribute</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contribute/contribute/">Contribute to SCN Docs</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">My Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Learn</li>
+      <li class="breadcrumb-item active">Crimping Ethernet Cables</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="crimping-ethernet-cables">Crimping Ethernet Cables</h1>
+<p>In this article, you'll all about crimping ethernet cables!</p>
+<h3 id="what-is-crimping-an-ethernet-cable">What is crimping an ethernet cable?</h3>
+<p>Crimping an ethernet cable is the process of attaching connectors onto the ends of ethernet cables. This process is also called 'RJ45 crimping' because RJ45 is the name of the connectors that are used for ethernet cables, and they are what is being crimped.</p>
+<h3 id="why">Why?</h3>
+<p>Setting up networks involves setting up long ethernet cable connections between different devices. Instead of buying premade ethernet cables of varying lengths (e.g. 5ft, 10ft, 50ft, etc.), it's more practical to just have a big spool of cabling that we can roll out and cut to the exact length we need.</p>
+<p>Therefore we need to be able to attach RJ45 connectors to the ends of these cut cables so that we can actually plug them in!</p>
+<h2 id="crimping-kit">Crimping Kit</h2>
+<p>Here are some tools you should have in your crimping kit!</p>
+<h3 id="rj45-crimping-tool">RJ45 Crimping Tool</h3>
+<p><img alt="RJ45 Crimping Tool" src="../../assets/cable-crimping/kit-crimping-tool.jpg" /></p>
+<p>An RJ45 crimping tool is the most essential tool. Although it's technically possible to crimp ethernet cables without this specialized tool, it's <a href="https://youtu.be/ysYLdFxNVuc">not very practical</a> for crimping lots of cables.</p>
+<p>Its primary utility is to do the actual 'crimping' part of compressing/crimping the tiny gold pins in the RJ45 connector onto the ethernet cables. It also has blades that can be used to cut or strip wires.</p>
+<h3 id="cable-stripper">Cable Stripper</h3>
+<p><img alt="Cable Stripper" src="../../assets/cable-crimping/kit-cable-stripper.jpg" /></p>
+<p>Cable strippers are used to take off the protecting shielding around cables and expose the inner wires. You can also do the same thing with a simple blade or pair of scissors. The trickiest part about stripping cables is trying to avoid cutting the inner wires!</p>
+<h3 id="rj45-connectors">RJ45 Connectors</h3>
+<p><img alt="RJ45 Connector" src="../../assets/cable-crimping/kit-rj45-connector.jpg" /></p>
+<p>RJ45 connectors are required for crimping because they feature the 8 golden pins that get crimped onto the 8 wires of the ethernet cable. They are what get plugged into ethernet ports! They also feature a latch/clip that locks the ethernet cable into the port once it is plugged in.</p>
+<h3 id="rj45-boots">RJ45 Boots</h3>
+<p><img alt="RJ45 Boot" src="../../assets/cable-crimping/kit-rj45-boot.jpg" /></p>
+<p>RJ45 boots can be optionally used to protect the RJ45 connector. It provides insulation and prevents the cable from being breaking easily. They have to put slipped onto the cable before you put on the RJ45 connectors though!</p>
+<h3 id="rj45-cable-tester">RJ45 Cable Tester</h3>
+<p><img alt="RJ45 Cable Tester" src="../../assets/cable-crimping/kit-cable-tester.jpg" /></p>
+<p>RJ45 cable testers allow you to guarantee that you did the job correctly!</p>
+<p>They have two pieces that separate from each other, and you plug each end of your crimped ethernet cable into the port on each piece. Then you turn it on and the cable tester will test the connection for all 8 pins. If there are any missing lights on any of the pins, it means that you messed up somewhere and have to restart!</p>
+<h2 id="how-to-crimp-an-ethernet-cable">How to Crimp an Ethernet Cable</h2>
+<p>Assuming you have a crimping kit and an ethernet cable that needs to be crimped, here are all the steps!</p>
+<h3 id="step-0-slip-on-the-rj45-boot-optional">Step 0) Slip on the RJ45 boot (optional)</h3>
+<p><img alt="2 boots on a cable" src="../../assets/cable-crimping/0-boots.jpg" /></p>
+<h3 id="step-1-strip-the-cable">Step 1) Strip the cable</h3>
+<p><img alt="cable being stripped by cable stripper" src="../../assets/cable-crimping/1-strip.png" /></p>
+<ul>
+<li>Push the cable into the razor slot of the strip tool and turn it around the cable to make an even cut around the sheath. Careful not to nick the wires inside!</li>
+<li>Unwrap the blue foil shielding and plastic to uncover the twisted wire pairs.</li>
+<li>Push the copper grounding wire to the side. (Ignore the white string.)</li>
+</ul>
+<h3 id="step-2-organize-the-wires">Step 2) Organize the wires</h3>
+<p>In this step, you'll be taking the 8 colored wires inside the ethernet cable and putting them into the correct ordering of colors.</p>
+<p><strong>NOTE</strong>This is the hardest part of crimping! The wires are small and are hard to control. Take your time and make sure you do this step correctly! Otherwise you might have to go back and restart.</p>
+<h3 id="step-21-untwist-the-wires">Step 2.1) Untwist the wires</h3>
+<p><img alt="4 twisted pairs becoming 8 individual wires" src="../../assets/cable-crimping/2.1-untwist.png" /></p>
+<p>There should be 4 pairs of wires: green, brown, orange, and blue. Each pair has a solid-colored wire and a striped-colored wire. Untwist these pairs and separate them into the 8 wires.</p>
+<h3 id="step-22-straighten-out-wires">Step 2.2) Straighten out wires</h3>
+<p>After untwisting the wires, they are probably still kinked and look like they want to be twisted. In this step, you should carefully grab all the wires and try to straighten them out by pulling on them. This will prevent the wires from moving around later on.</p>
+<p><strong>WARNING</strong> Don't break off the wires!</p>
+<h3 id="step-23-lay-out-wires-in-order">Step 2.3) Lay out wires in order</h3>
+<p><img alt="Diagram showcasing ordering of RJ45 wires" src="../../assets/cable-crimping/2.3-color-diagram.png" />
+<img alt="8 wires in RJ45 color order" src="../../assets/cable-crimping/2.3-ordered.png" /></p>
+<p>With your straightened out wires, put them into the correct order! Make sure that the wires are all flat and in line with each other.</p>
+<p>The ordering for these wires is:
+1. Striped orange
+2. Solid orange
+3. Striped green
+4. Solid blue
+5. Striped blue
+6. Solid green
+7. Striped brown
+8. Solid brown</p>
+<p><strong>TIP</strong> After laying them out in order, straighten them out again as a group! This will help keep the wires together.</p>
+<h3 id="step-24-trim-the-wires">Step 2.4) Trim the wires</h3>
+<p><img alt="trimmed wires" src="../../assets/cable-crimping/2.4-trim.png" /></p>
+<p>Trim the wires evenly to about 1/2 inch in length using scissors or the blade of your crimping tool. You want to make sure you have enough room for the wires to reach the end of the RJ45 connector. But also try to have room for the shielding of the cable to be inserted into the connector too.</p>
+<p><strong>TIP</strong> You can put the wires side-by-side to the RJ45 connector to see how long you should cut it. Look at the next step to see what the final product looks like.</p>
+<p><strong>TIP</strong> If you don't have the shielding inside of the connector, it makes it easier for the wires to snap off later, which is bad.</p>
+<p><strong>TIP</strong> Make sure that you cut the wires evenly!</p>
+<h3 id="step-3-slide-wires-into-rj45-connector">Step 3) Slide wires into RJ45 connector</h3>
+<p><img alt="Wires inserted into RJ45 connector with clip-side down" src="../../assets/cable-crimping/3-diagram.png" /></p>
+<p>Carefully slide your 8 wires into the connector. Make sure that the clip is facing away from you! If it is really hard to slide it into the connector, you probably didn't straighten out the wires enough in step 2.2 or 2.3.</p>
+<p><strong>MORE INFO</strong> Inserting the wires with the clip facing away from you is the standard. However, you could technically do it in 'reverse' and insert the wires with the clip facing you, as long as you do it on both ends of the cable. You shouldn't do this in practice though because others would get confused when looking at your cable.</p>
+<h3 id="step-4-crimp-it">Step 4) Crimp it</h3>
+<p><img alt="Inserting into crimping tool and crimping" src="../../assets/cable-crimping/4-crimp.png" /></p>
+<p>Push the RJ45 connector into the slot of your crimping tool for RJ45 connectors. The slot should be labeled something like "8P" for the 8-pin RJ45 connector that you're using.</p>
+<p>In this step, you're doing the actual 'crimping' part and crimping/compressing/stabbing the 8 golden pins on the RJ45 connector into the 8 colored wires.</p>
+<p><strong>TIP</strong> Squeeze as hard as you can! You need to make sure that all 8 pins are crimped.</p>
+<h3 id="step-5-test-it">Step 5) Test it</h3>
+<p><img alt="Testing with cable tester, green light showing" src="../../assets/cable-crimping/5-test.png" /></p>
+<p>Slide the two pieces of the tester apart and plug each of the cable ends into either piece. Turn the switch to “On” or “Slow.” If it's working, all 8 numbers should be flashing green.</p>
+<p>If any of them are not showing green, it means something is wrong and you have to redo it! The RJ45 connector can't be reused once it's crimped, so you should just cut the end off and start back at step 1.</p>
+<p>If everything is green, then you're done! If you had a cable boot, you can push the boots onto the RJ45 connector now.</p>
+<h2 id="resources">Resources</h2>
+<h3 id="workshop-slides">Workshop Slides</h3>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1HG5OcJysTicr_JHOlsKTB2ewWBVexrQDYv0Xn3_1hYA/edit?usp=sharing">ISOC ICS Training Workshop</a></li>
+</ul>
+<h3 id="videos">Videos</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=WvP0D0jiyLg">Crimping Tutorial (2 mins)</a></li>
+<li><a href="https://youtu.be/3tHvOLBp2zM">Cable Testing</a><ul>
+<li>Only need first 7 minutes for the basics</li>
+</ul>
+</li>
+</ul>
+<h3 id="websites">Websites</h3>
+<ul>
+<li><a href="https://incentre.net/ethernet-cable-color-coding-diagram/">Color Coding Diagrams</a></li>
+<li><a href="https://raw.githubusercontent.com/sudomesh/propaganda/master/handouts/zine-assets/crimp_comic.png">Crimping Comic</a><ul>
+<li>From People's Open Network + sudomesh</li>
+</ul>
+</li>
+</ul>
+<h3 id="shopping">Shopping</h3>
+<ul>
+<li><a href="https://www.amazon.com/SGILE-Ethernet-Maintenance-Connector-Accessories/dp/B01L924436/">Crimping Kit ($23)</a><ul>
+<li>Comes with a nice case</li>
+<li>Might need to buy your own batteries for cable tester</li>
+</ul>
+</li>
+<li><a href="https://www.amazon.com/UbiGear-Crimper-Connector-Network-Crimper315/dp/B008UY5WL0/">Crimping Kit ($17)</a><ul>
+<li>Might need to buy your own batteries for cable tester</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../wireless-communication/" class="btn btn-neutral float-left" title="Wireless Communication"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../lte-networks/" class="btn btn-neutral float-right" title="LTE Networks">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../wireless-communication/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../lte-networks/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
